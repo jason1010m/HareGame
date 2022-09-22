@@ -1,0 +1,10 @@
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\obj\Debug\Work4.csprojAssemblyReference.cache
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\obj\Debug\Work4.csproj.GenerateResource.cache
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\obj\Debug\Work4.csproj.CoreCompileInputs.cache
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\bin\Debug\Work4_Server.exe.config
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\bin\Debug\Work4_Server.exe
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\bin\Debug\Work4_Server.pdb
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\obj\Debug\Work4_Server.Form1.resources
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\obj\Debug\Work4_Server.Properties.Resources.resources
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\obj\Debug\Work4_Server.exe
+E:\Kaisa\網路程式設計_C#\Work4\Work4\Work4\obj\Debug\Work4_Server.pdb

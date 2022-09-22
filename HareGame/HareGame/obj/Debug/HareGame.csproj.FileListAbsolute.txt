@@ -1,0 +1,10 @@
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\bin\Debug\HareGame.exe.config
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\bin\Debug\HareGame.exe
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\bin\Debug\HareGame.pdb
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\obj\Debug\HareGame.csprojAssemblyReference.cache
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\obj\Debug\HareGame.Form1.resources
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\obj\Debug\HareGame.Properties.Resources.resources
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\obj\Debug\HareGame.csproj.GenerateResource.cache
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\obj\Debug\HareGame.csproj.CoreCompileInputs.cache
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\obj\Debug\HareGame.exe
+E:\Kaisa\網路程式設計_C#\Project_HareGame\HareGame\HareGame\obj\Debug\HareGame.pdb

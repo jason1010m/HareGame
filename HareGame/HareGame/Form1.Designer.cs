@@ -40,9 +40,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.myPanel1 = new HareGame.MyPanel();
             this.SuspendLayout();
             // 
             // listBox1
@@ -154,16 +154,6 @@
             this.label5.TabIndex = 19;
             this.label5.Text = "系統訊息";
             // 
-            // panel1
-            // 
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel1.Location = new System.Drawing.Point(5, 68);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 459);
-            this.panel1.TabIndex = 24;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
@@ -198,14 +188,23 @@
             this.label6.TabIndex = 26;
             this.label6.Text = "遊戲規則";
             // 
+            // myPanel1
+            // 
+            this.myPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.myPanel1.Location = new System.Drawing.Point(5, 66);
+            this.myPanel1.Name = "myPanel1";
+            this.myPanel1.Size = new System.Drawing.Size(800, 459);
+            this.myPanel1.TabIndex = 27;
+            this.myPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.myPanel1_MouseDown);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(936, 528);
+            this.Controls.Add(this.myPanel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.listBox2);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label5);
@@ -242,9 +241,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Label label6;
+        private HareGame.MyPanel myPanel1;
     }
 }
 

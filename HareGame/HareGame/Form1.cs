@@ -76,7 +76,7 @@ namespace HareGame
         {
             Bitmap bg = new Bitmap("Hare_board.png"); //棋盤影像物件
             Graphics g = Graphics.FromImage(bg); //棋盤影像繪圖物件
-            panel1.BackgroundImage = bg; //貼上棋盤影像為panel1的背景
+            myPanel1.BackgroundImage = bg; //貼上棋盤影像為myPanel1的背景
             for (int i = 0; i < 3; i++)
             {
                 for(int j = 0; j < 5; j++)
@@ -93,7 +93,7 @@ namespace HareGame
         }
 
         //下棋的動作
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        private void myPanel1_MouseDown(object sender, MouseEventArgs e)
         {
             int x = (e.X-30)/60; //算出是第幾個水平向的棋格
             int y = (e.Y-30)/60; //算出是第幾個垂直向的棋格
@@ -208,7 +208,7 @@ namespace HareGame
                             textBox4.Text = "獵犬方勝利！" + "\r\n";//犬方勝利提示
                             break;
                     }
-                    panel1.Enabled = false; //輪到對手，你不能繼續下棋
+                    myPanel1.Enabled = false; //輪到對手，你不能繼續下棋
                 }
             }
         }
@@ -261,7 +261,7 @@ namespace HareGame
                     case "4": //對手拿犬棋
                         D = Str.Split(','); //切割座標訊息
                         type = int.Parse(D[0]);
-                        panel1.Enabled = false; //對手下好了，輪到你下棋
+                        myPanel1.Enabled = false; //對手下好了，輪到你下棋
                         break;
                     case "5": //對手重置棋盤
                         S = new byte[3, 5] { { 6, 0, 0, 2, 6 }, { 1, 0, 0, 0, 2 }, { 6, 0, 0, 2, 6 } }; //宣告及設置棋盤資訊陣列
@@ -269,7 +269,7 @@ namespace HareGame
                         type = 0;  //代表棋未定
                         dErrorMove = 0;  //初始犬棋連續垂直走步
                         textBox4.Text = "遊戲重置" + "\r\n";//重置提示
-                        panel1.Enabled = true; //對手下好了，輪到你下棋
+                        myPanel1.Enabled = true; //對手下好了，輪到你下棋
                         drawAll();  //繪製所有物件
                         break;
                     case "6": //對手選擇棋訊息
@@ -348,7 +348,7 @@ namespace HareGame
                         {
                             case 0:
                                 textBox4.Text = "輪到你了" + "\r\n";//下棋提示
-                                panel1.Enabled = true; //對手下好了，輪到你下棋
+                                myPanel1.Enabled = true; //對手下好了，輪到你下棋
                                 break;
                             case 1:
                                 textBox4.Text = "兔子方勝利！" + "\r\n";//兔方勝利提示
@@ -406,7 +406,7 @@ namespace HareGame
             {
                 Send("5" + "C" + "|" + listBox1.SelectedItem);//送出清除訊息給對手
             }
-            panel1.Enabled = true; //對手下好了，輪到你下棋
+            myPanel1.Enabled = true; //對手下好了，輪到你下棋
             drawAll();  //重新繪製所有物件
         }
     }

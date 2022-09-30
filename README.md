@@ -11,3 +11,5 @@
 連線後全程以滑鼠點擊操作，遊戲開始後先點擊紅棋者本局即作為獵犬。
 ## 遊戲截圖：<br>
 ![HareGame](https://user-images.githubusercontent.com/85746292/191746503-17edf6cf-77d9-4076-995e-af56a0c23830.png)
+## 實際錄影：<br>
+https://user-images.githubusercontent.com/85746292/193318164-d4df4454-cc23-4ec2-b2bd-487f68277794.mp4
